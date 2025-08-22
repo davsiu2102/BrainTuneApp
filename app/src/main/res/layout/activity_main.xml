@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="350dp"
+        android:layout_height="281dp"
+        android:contentDescription="@string/logo_de_braintune"
+        android:src="@drawable/braintune_logo" />
+
+    <TextView
+        android:id="@+id/tv_coming_soon"
+        android:layout_width="wrap_content"
+        android:layout_height="79dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/pr_ximamente_aplicaci_n_en_desarrollo"
+        android:textAlignment="center"
+        android:textColor="@color/texto_principal"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_weight="0"/>
+
+    <ImageView
+        android:id="@+id/byteWayLogoImageView"
+        android:layout_width="87dp"
+        android:layout_height="86dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/byteway_logo"
+        android:src="@drawable/byteway_logo"/>
+
+    <TextView
+        android:id="@+id/ByteWay"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_marginTop="-30dp"
+        android:text="@string/ByteWay"
+        android:textAlignment="center"
+        android:textColor="@color/texto_ByteWay"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
