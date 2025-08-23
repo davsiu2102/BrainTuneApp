@@ -10,7 +10,7 @@ android {
     defaultConfig {
         applicationId = "com.example.braintune_app_"
         minSdk = 24
-        targetSdk = 36
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -33,6 +33,7 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+    buildToolsVersion = "36.0.0"
 }
 
 dependencies {

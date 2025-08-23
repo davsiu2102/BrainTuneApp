@@ -2,6 +2,7 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -21,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="79dp"
         android:layout_marginTop="24dp"
-        android:text="@string/aplicacion_en_desarrollo_esperarla_pronto"
+        android:text="@string/aplicaci_n_en_desarrollo_esperala_pronto"
         android:textAlignment="center"
         android:textColor="@color/texto_principal"
         android:textSize="24sp"
@@ -29,7 +30,7 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="68dp"
+        android:layout_height="0dp"
         android:layout_weight="0"/>
 
     <ImageView
